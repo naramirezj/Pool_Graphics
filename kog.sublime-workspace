@@ -1,0 +1,2836 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ena",
+				"enable"
+			],
+			[
+				"slow",
+				"slowpokeGeometries"
+			],
+			[
+				"vert",
+				"vertexPosition"
+			],
+			[
+				"vr",
+				"vertexColor"
+			],
+			[
+				"vertex",
+				"vertexColor"
+			],
+			[
+				"get",
+				"getWorldPosition"
+			],
+			[
+				"minC",
+				"minCorner"
+			],
+			[
+				"im",
+				"imageSlice"
+			],
+			[
+				"draw",
+				"drawIfInBox"
+			],
+			[
+				"step",
+				"stepCount"
+			],
+			[
+				"text",
+				"textureSize"
+			],
+			[
+				"re",
+				"reverse"
+			],
+			[
+				"to",
+				"toInt"
+			],
+			[
+				"targ",
+				"targets"
+			],
+			[
+				"edge",
+				"edgeNormalBuffers"
+			],
+			[
+				"tar",
+				"target"
+			],
+			[
+				"sample",
+				"sampleOffset"
+			],
+			[
+				"ege",
+				"edgeNormalBuffers"
+			],
+			[
+				"R32",
+				"R32UI"
+			],
+			[
+				"reve",
+				"edgeReverseHashTexture"
+			],
+			[
+				"Frame",
+				"Framebuffer"
+			],
+			[
+				"res",
+				"resolution"
+			],
+			[
+				"t",
+				"tnear"
+			],
+			[
+				"de",
+				"debugOutput"
+			],
+			[
+				"mid",
+				"midOctal"
+			],
+			[
+				"best",
+				"bestOctalIn"
+			],
+			[
+				"nsli",
+				"nSlicesPerChunk"
+			],
+			[
+				"bes",
+				"bestOctal"
+			],
+			[
+				"ps",
+				"pspecular"
+			],
+			[
+				"internal",
+				"internalformat"
+			],
+			[
+				"texImage",
+				"texImage3D"
+			],
+			[
+				"slice",
+				"sliceCount"
+			],
+			[
+				"slic",
+				"sliceCount"
+			],
+			[
+				"for",
+				"forEachIndexed"
+			],
+			[
+				"data",
+				"dataFormat"
+			],
+			[
+				"RGBA8",
+				"RGBA8UI"
+			],
+			[
+				"la",
+				"labelsTexture"
+			],
+			[
+				"out",
+				"outLabelFlags"
+			],
+			[
+				"label",
+				"labelFlags"
+			],
+			[
+				"in",
+				"inLabel"
+			],
+			[
+				"normal",
+				"normalGuess"
+			],
+			[
+				"qu",
+				"quality"
+			],
+			[
+				"pick",
+				"pickId"
+			],
+			[
+				"fr",
+				"friendIndexOffset"
+			],
+			[
+				"fir",
+				"friendIndexOffset"
+			],
+			[
+				"sel",
+				"selectionIndexOffset"
+			],
+			[
+				"select",
+				"selectOrUnselect"
+			],
+			[
+				"0x",
+				"0x90000"
+			],
+			[
+				"linear",
+				"linearFiltering"
+			],
+			[
+				"rem",
+				"removeAll"
+			],
+			[
+				"curve",
+				"curveEditor"
+			],
+			[
+				"grip",
+				"gripIndex"
+			],
+			[
+				"remo",
+				"removeLast"
+			],
+			[
+				"a",
+				"activeGrips"
+			],
+			[
+				"radio",
+				"radioButton"
+			],
+			[
+				"close",
+				"closeCurrentPopup"
+			],
+			[
+				"curr",
+				"currentGripLabel"
+			],
+			[
+				"index",
+				"indexOfFirst"
+			],
+			[
+				"ed",
+				"editTool"
+			],
+			[
+				"D",
+				"Dolly"
+			],
+			[
+				"Tr",
+				"Track"
+			],
+			[
+				"Na",
+				"Navigate"
+			],
+			[
+				"edit",
+				"editTool"
+			],
+			[
+				"Cam",
+				"ImiCameraControlStrategy"
+			],
+			[
+				"List",
+				"ArrayList"
+			],
+			[
+				"mo",
+				"mouseDown"
+			],
+			[
+				"Camera",
+				"CameraControlStrategy"
+			],
+			[
+				"sampler",
+				"sampler2D"
+			],
+			[
+				"Uniform",
+				"UniformDescriptor"
+			],
+			[
+				"drag",
+				"dragGripIndex"
+			],
+			[
+				"gri",
+				"grips"
+			],
+			[
+				"surge",
+				"surgeonView"
+			],
+			[
+				"voxel",
+				"voxelCheck"
+			],
+			[
+				"pic",
+				"pickId"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"i",
+				"iEntry"
+			],
+			[
+				"Int",
+				"IntArray"
+			],
+			[
+				"Key",
+				"keyMap"
+			],
+			[
+				"main",
+				"mainWorkphaseIndex"
+			],
+			[
+				"density",
+				"density3d"
+			],
+			[
+				"Vesse",
+				"VesselSphere"
+			],
+			[
+				"Ves",
+				"VesselSphere"
+			],
+			[
+				"Cu",
+				"Curve"
+			],
+			[
+				"work",
+				"workphase"
+			],
+			[
+				"on",
+				"onStrokeBegin"
+			],
+			[
+				"reset",
+				"resetRoutine"
+			],
+			[
+				"reser",
+				"resetRoutine"
+			],
+			[
+				"wo",
+				"workroutine"
+			],
+			[
+				"Wor",
+				"Workroutine"
+			],
+			[
+				"r",
+				"routineStack"
+			],
+			[
+				"arr",
+				"arrayOf"
+			],
+			[
+				"next",
+				"SetNextItemWidth"
+			],
+			[
+				"ima",
+				"imageSlice"
+			],
+			[
+				"quey",
+				"queryMotion"
+			],
+			[
+				"slci",
+				"slicing"
+			],
+			[
+				"time",
+				"idleTime"
+			],
+			[
+				"solid",
+				"solidId"
+			],
+			[
+				"marker",
+				"markerTip"
+			],
+			[
+				"No",
+				"NoduleMarkings"
+			],
+			[
+				"all",
+				"allMarkersMustBeOnOneSliceOnAxis"
+			],
+			[
+				"move",
+				"moveSlice"
+			],
+			[
+				"wid",
+				"widthFraction"
+			],
+			[
+				"den",
+				"density3d"
+			],
+			[
+				"fra",
+				"fraction"
+			],
+			[
+				"labels",
+				"labels2d"
+			],
+			[
+				"desn",
+				"density3d"
+			],
+			[
+				"show",
+				"showFlags"
+			],
+			[
+				"Mo",
+				"Motion"
+			],
+			[
+				"jump",
+				"jumpNear"
+			],
+			[
+				"intersect",
+				"intersectOcta"
+			],
+			[
+				"came",
+				"cameraMoved"
+			],
+			[
+				"sl",
+				"slicing"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"resize",
+				"resizePending"
+			],
+			[
+				"Density",
+				"DensityOnClient"
+			],
+			[
+				"wor",
+				"workphase"
+			],
+			[
+				"segme",
+				"segmentNodule"
+			],
+			[
+				"mak",
+				"markerLockerTools"
+			],
+			[
+				"Nodu",
+				"NoduleMarkings"
+			],
+			[
+				"oper",
+				"operationProgressIds"
+			],
+			[
+				"Densi",
+				"DensityOnClient"
+			],
+			[
+				"De",
+				"DensityOnServer"
+			],
+			[
+				"da",
+				"dataCompressed"
+			],
+			[
+				"Entr",
+				"EntryZone"
+			],
+			[
+				"AR",
+				"ARMarkings"
+			],
+			[
+				"ster",
+				"Sternum"
+			],
+			[
+				"upp",
+				"AortaUpperMarkings"
+			],
+			[
+				"arter",
+				"ArteryMarkings"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/src/main/kotlin/Scene.kt",
+			"settings":
+			{
+				"buffer_size": 3181,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAIcDAAAAAAAAiAMAAAAAAAAAAAAAiAMAAAAAAACKAwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhwMAAAAAAACHAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"paste",
+					null,
+					"AQAAAIgDAAAAAAAAEwcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAMAAAAAAACIAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					3,
+					"right_delete",
+					null,
+					"AwAAABIHAAAAAAAAEgcAAAAAAAABAAAAChIHAAAAAAAAEgcAAAAAAAACAAAAICASBwAAAAAAABIHAAAAAAAAAQAAAAo",
+					"AQAAAAAAAAABAAAAEgcAAAAAAAASBwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAIgDAAAAAAAAiQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiAMAAAAAAACIAwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAC4EAAAAAAAALwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALgQAAAAAAAAuBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "arrayOf"
+					},
+					"BwAAADIEAAAAAAAAMwQAAAAAAAAAAAAAMwQAAAAAAAA0BAAAAAAAAAAAAAA0BAAAAAAAADUEAAAAAAAAAAAAADUEAAAAAAAANgQAAAAAAAAAAAAANgQAAAAAAAA3BAAAAAAAAAAAAAA3BAAAAAAAADgEAAAAAAAAAAAAADgEAAAAAAAAOQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgQAAAAAAAAyBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAADkEAAAAAAAAOgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQQAAAAAAAA5BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"left_delete",
+					null,
+					"AQAAADkEAAAAAAAAOQQAAAAAAAABAAAAKQ",
+					"AQAAAAAAAAABAAAAOgQAAAAAAAA6BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					50,
+					1,
+					"insert",
+					{
+						"characters": "("
+					},
+					"AQAAADkEAAAAAAAAOgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOQQAAAAAAAA5BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"BAAAADoEAAAAAAAAOwQAAAAAAAAAAAAAOwQAAAAAAAA9BAAAAAAAAAAAAAA7BAAAAAAAADsEAAAAAAAAAgAAACAgOwQAAAAAAAA/BAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgQAAAAAAAA6BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFkEAAAAAAAAWQQAAAAAAAAGAAAAICBpbml0WAQAAAAAAABYBAAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAXwQAAAAAAABZBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": ".apply"
+					},
+					"BgAAAFgEAAAAAAAAWQQAAAAAAAAAAAAAWQQAAAAAAABaBAAAAAAAAAAAAABaBAAAAAAAAFsEAAAAAAAAAAAAAFsEAAAAAAAAXAQAAAAAAAAAAAAAXAQAAAAAAABdBAAAAAAAAAAAAABdBAAAAAAAAF4EAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAQAAAAAAABYBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					59,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAF4EAAAAAAAAXwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgQAAAAAAABeBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "this"
+					},
+					"BQAAAGUEAAAAAAAAZgQAAAAAAAAAAAAAZgQAAAAAAABmBAAAAAAAABAAAABzbG93cG9rZU1hdGVyaWFsZgQAAAAAAABnBAAAAAAAAAAAAABnBAAAAAAAAGgEAAAAAAAAAAAAAGgEAAAAAAAAaQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQQAAAAAAAB1BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAJAEAAAAAAAAkQQAAAAAAAAAAAAAkQQAAAAAAACSBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkAQAAAAAAACQBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAGMEAAAAAAAAZAQAAAAAAAAAAAAAZAQAAAAAAABlBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwQAAAAAAABjBAAAAAAAAAAAAAAAgEFA"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAJcEAAAAAAAAmAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwQAAAAAAACXBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJsEAAAAAAAAmwQAAAAAAAAaAAAAdmFsIHNsb3dwb2tlRXllTWF0ZXJpYWwgPSA",
+					"AQAAAAAAAAABAAAAmwQAAAAAAAC1BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					85,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAJsEAAAAAAAAnAQAAAAAAAAAAAAAnAQAAAAAAACdBAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwQAAAAAAACbBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					88,
+					2,
+					"left_delete",
+					null,
+					"AgAAALcEAAAAAAAAtwQAAAAAAAABAAAAILYEAAAAAAAAtgQAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAAuAQAAAAAAAC4BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": ".applyŐ"
+					},
+					"BwAAALYEAAAAAAAAtwQAAAAAAAAAAAAAtwQAAAAAAAC4BAAAAAAAAAAAAAC4BAAAAAAAALkEAAAAAAAAAAAAALkEAAAAAAAAugQAAAAAAAAAAAAAugQAAAAAAAC7BAAAAAAAAAAAAAC7BAAAAAAAALwEAAAAAAAAAAAAALwEAAAAAAAAvQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgQAAAAAAAC2BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					90,
+					1,
+					"left_delete",
+					null,
+					"AQAAALwEAAAAAAAAvAQAAAAAAAACAAAAxZA",
+					"AQAAAAAAAAABAAAAvQQAAAAAAAC9BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAALwEAAAAAAAAvgQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvAQAAAAAAAC8BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALwEAAAAAAAAvQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvAQAAAAAAAC8BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					95,
+					1,
+					"right_delete",
+					null,
+					"AQAAAL4EAAAAAAAAvgQAAAAAAAABAAAAfQ",
+					"AQAAAAAAAAABAAAAvgQAAAAAAAC+BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "thid"
+					},
+					"BQAAAMEEAAAAAAAAwgQAAAAAAAAAAAAAwgQAAAAAAADCBAAAAAAAAB0AAABpbml0ewogICAgc2xvd3Bva2VFeWVNYXRlcmlhbMIEAAAAAAAAwwQAAAAAAAAAAAAAwwQAAAAAAADEBAAAAAAAAAAAAADEBAAAAAAAAMUEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQQAAAAAAADeBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMQEAAAAAAAAxAQAAAAAAAABAAAAZA",
+					"AQAAAAAAAAABAAAAxQQAAAAAAADFBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					106,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAMQEAAAAAAAAxQQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAQAAAAAAADEBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"insert",
+					{
+						"characters": "\t\t\t"
+					},
+					"AwAAAMEEAAAAAAAAwwQAAAAAAAAAAAAAwwQAAAAAAADFBAAAAAAAAAAAAADFBAAAAAAAAMcEAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQQAAAAAAADBBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMUEAAAAAAAAxQQAAAAAAAACAAAAICA",
+					"AQAAAAAAAAABAAAAxwQAAAAAAADHBAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					114,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAPMEAAAAAAAA9QQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8wQAAAAAAADzBAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					117,
+					1,
+					"insert",
+					{
+						"characters": "\n}"
+					},
+					"BQAAAPgEAAAAAAAA+QQAAAAAAAAAAAAA+QQAAAAAAAD9BAAAAAAAAAAAAAD9BAAAAAAAAP4EAAAAAAAAAAAAAPkEAAAAAAAA+QQAAAAAAAAEAAAAICAgIPkEAAAAAAAA+wQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+AQAAAAAAAD4BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					124,
+					1,
+					"insert",
+					{
+						"characters": "Array"
+					},
+					"BgAAAJEFAAAAAAAAkgUAAAAAAAAAAAAAkgUAAAAAAACSBQAAAAAAAAgAAABhcnJheU9mKJIFAAAAAAAAkwUAAAAAAAAAAAAAkwUAAAAAAACUBQAAAAAAAAAAAACUBQAAAAAAAJUFAAAAAAAAAAAAAJUFAAAAAAAAlgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmQUAAAAAAACRBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					125,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAJYFAAAAAAAAmAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlgUAAAAAAACWBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					128,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAAJcFAAAAAAAAmAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwUAAAAAAACXBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					129,
+					1,
+					"insert",
+					{
+						"characters": " ->"
+					},
+					"AwAAAJgFAAAAAAAAmQUAAAAAAAAAAAAAmQUAAAAAAACaBQAAAAAAAAAAAACaBQAAAAAAAJsFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAUAAAAAAACYBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					130,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAJsFAAAAAAAAnAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwUAAAAAAACbBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					131,
+					1,
+					"insert",
+					{
+						"characters": "Mesh"
+					},
+					"BAAAAJwFAAAAAAAAnQUAAAAAAAAAAAAAnQUAAAAAAACeBQAAAAAAAAAAAACeBQAAAAAAAJ8FAAAAAAAAAAAAAJ8FAAAAAAAAoAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnAUAAAAAAACcBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					132,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAKAFAAAAAAAAogUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoAUAAAAAAACgBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					146,
+					1,
+					"paste",
+					null,
+					"AQAAAKEFAAAAAAAAsgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQUAAAAAAAChBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					147,
+					1,
+					"insert_snippet",
+					{
+						"contents": "[$0]"
+					},
+					"AQAAALIFAAAAAAAAtAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgUAAAAAAACyBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					148,
+					1,
+					"insert",
+					{
+						"characters": "i"
+					},
+					"AQAAALMFAAAAAAAAtAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswUAAAAAAACzBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					150,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAALUFAAAAAAAAtgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtQUAAAAAAAC1BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					151,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALYFAAAAAAAAtwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgUAAAAAAAC2BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					171,
+					1,
+					"right_delete",
+					null,
+					"AQAAAJEFAAAAAAAAkQUAAAAAAAAQAAAAQXJyYXl7aSAtPiBNZXNoKA",
+					"AQAAAAAAAAABAAAAkQUAAAAAAAChBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					177,
+					1,
+					"insert",
+					{
+						"characters": " zip"
+					},
+					"BQAAAKIFAAAAAAAAowUAAAAAAAAAAAAAowUAAAAAAACjBQAAAAAAAAcAAABbaV0sICl9owUAAAAAAACkBQAAAAAAAAAAAACkBQAAAAAAAKUFAAAAAAAAAAAAAKUFAAAAAAAApgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAogUAAAAAAACpBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					178,
+					1,
+					"insert",
+					{
+						"characters": " slow"
+					},
+					"BQAAAKYFAAAAAAAApwUAAAAAAAAAAAAApwUAAAAAAACoBQAAAAAAAAAAAACoBQAAAAAAAKkFAAAAAAAAAAAAAKkFAAAAAAAAqgUAAAAAAAAAAAAAqgUAAAAAAACrBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApgUAAAAAAACmBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					182,
+					1,
+					"insert_completion",
+					{
+						"completion": "slowpokeGeometries",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "slowpokeGeometries"
+					},
+					"AgAAAKcFAAAAAAAApwUAAAAAAAAEAAAAc2xvd6cFAAAAAAAAuQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwUAAAAAAACrBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					186,
+					1,
+					"insert",
+					{
+						"characters": "("
+					},
+					"AQAAAJEFAAAAAAAAkgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkQUAAAAAAACRBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					191,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAALoFAAAAAAAAuwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugUAAAAAAAC6BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					196,
+					1,
+					"insert",
+					{
+						"characters": "\n\t"
+					},
+					"AwAAAJEFAAAAAAAAkgUAAAAAAAAAAAAAkgUAAAAAAACUBQAAAAAAAAAAAACUBQAAAAAAAJYFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkQUAAAAAAACRBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					198,
+					1,
+					"insert",
+					{
+						"characters": ".map"
+					},
+					"BAAAAMAFAAAAAAAAwQUAAAAAAAAAAAAAwQUAAAAAAADCBQAAAAAAAAAAAADCBQAAAAAAAMMFAAAAAAAAAAAAAMMFAAAAAAAAxAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwAUAAAAAAADABQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					199,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAMQFAAAAAAAAxgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAUAAAAAAADEBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					202,
+					1,
+					"insert",
+					{
+						"characters": "it."
+					},
+					"AwAAAMUFAAAAAAAAxgUAAAAAAAAAAAAAxgUAAAAAAADHBQAAAAAAAAAAAADHBQAAAAAAAMgFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQUAAAAAAADFBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					203,
+					3,
+					"left_delete",
+					null,
+					"AwAAAMcFAAAAAAAAxwUAAAAAAAABAAAALsYFAAAAAAAAxgUAAAAAAAABAAAAdMUFAAAAAAAAxQUAAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAyAUAAAAAAADIBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					204,
+					1,
+					"insert",
+					{
+						"characters": " Mesh"
+					},
+					"BQAAAMUFAAAAAAAAxgUAAAAAAAAAAAAAxgUAAAAAAADHBQAAAAAAAAAAAADHBQAAAAAAAMgFAAAAAAAAAAAAAMgFAAAAAAAAyQUAAAAAAAAAAAAAyQUAAAAAAADKBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQUAAAAAAADFBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					205,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAMoFAAAAAAAAzAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygUAAAAAAADKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					208,
+					1,
+					"insert",
+					{
+						"characters": "it.d"
+					},
+					"BAAAAMsFAAAAAAAAzAUAAAAAAAAAAAAAzAUAAAAAAADNBQAAAAAAAAAAAADNBQAAAAAAAM4FAAAAAAAAAAAAAM4FAAAAAAAAzwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAywUAAAAAAADLBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					209,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM4FAAAAAAAAzgUAAAAAAAABAAAAZA",
+					"AQAAAAAAAAABAAAAzwUAAAAAAADPBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					210,
+					1,
+					"insert",
+					{
+						"characters": "first,"
+					},
+					"BgAAAM4FAAAAAAAAzwUAAAAAAAAAAAAAzwUAAAAAAADQBQAAAAAAAAAAAADQBQAAAAAAANEFAAAAAAAAAAAAANEFAAAAAAAA0gUAAAAAAAAAAAAA0gUAAAAAAADTBQAAAAAAAAAAAADTBQAAAAAAANQFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzgUAAAAAAADOBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					211,
+					1,
+					"insert",
+					{
+						"characters": " it.second"
+					},
+					"CgAAANQFAAAAAAAA1QUAAAAAAAAAAAAA1QUAAAAAAADWBQAAAAAAAAAAAADWBQAAAAAAANcFAAAAAAAAAAAAANcFAAAAAAAA2AUAAAAAAAAAAAAA2AUAAAAAAADZBQAAAAAAAAAAAADZBQAAAAAAANoFAAAAAAAAAAAAANoFAAAAAAAA2wUAAAAAAAAAAAAA2wUAAAAAAADcBQAAAAAAAAAAAADcBQAAAAAAAN0FAAAAAAAAAAAAAN0FAAAAAAAA3gUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AUAAAAAAADUBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					213,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAN8FAAAAAAAA4AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3wUAAAAAAADfBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					215,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOEFAAAAAAAA4gUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QUAAAAAAADhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					216,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOEFAAAAAAAA4QUAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAA4gUAAAAAAADiBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					217,
+					1,
+					"insert",
+					{
+						"characters": ".to"
+					},
+					"AwAAAOEFAAAAAAAA4gUAAAAAAAAAAAAA4gUAAAAAAADjBQAAAAAAAAAAAADjBQAAAAAAAOQFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4QUAAAAAAADhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					218,
+					1,
+					"insert_completion",
+					{
+						"completion": "toTypedArray",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "toTypedArray"
+					},
+					"AgAAAOIFAAAAAAAA4gUAAAAAAAACAAAAdG/iBQAAAAAAAO4FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5AUAAAAAAADkBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					219,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAO4FAAAAAAAA8AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7gUAAAAAAADuBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					223,
+					1,
+					"right_delete",
+					null,
+					"AQAAAPEFAAAAAAAA8QUAAAAAAABfAQAAICAgIE1lc2goCiAgICAgIE1hdGVyaWFsKHRleHR1cmVkUHJvZ3JhbSkuYXBwbHl7CiAgICAgICAgdGhpc1siY29sb3JUZXh0dXJlIl0/LnNldCgKICAgICAgICAgIFRleHR1cmUyRChnbCwgIm1lZGlhL3Nsb3dwb2tlL1lhZG9uRGgucG5nIikpCiAgICAgIH0sIHNsb3dwb2tlR2VvbWV0cmllc1swXSksCiAgICBNZXNoKAogICAgICBNYXRlcmlhbCh0ZXh0dXJlZFByb2dyYW0pLmFwcGx5ewogICAgICAgIHRoaXNbImNvbG9yVGV4dHVyZSJdPy5zZXQoCiAgICAgICAgICBUZXh0dXJlMkQoZ2wsICJtZWRpYS9zbG93cG9rZS9ZYWRvbkV5ZURoLnBuZyIpKQogICAgICB9LCBzbG93cG9rZUdlb21ldHJpZXNbMV0pLAogICkK",
+					"AQAAAAAAAAABAAAA8QUAAAAAAABQBwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					231,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAACcGAAAAAAAAKAYAAAAAAAAAAAAAKAYAAAAAAAAqBgAAAAAAAAAAAAAqBgAAAAAAACwGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJwYAAAAAAAAnBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					239,
+					1,
+					"right_delete",
+					null,
+					"AQAAACgGAAAAAAAAKAYAAAAAAAACAAAAICA",
+					"AQAAAAAAAAABAAAAKAYAAAAAAAAoBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					241,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAB4GAAAAAAAAHwYAAAAAAAAAAAAAKQYAAAAAAAApBgAAAAAAAAIAAAAgIA",
+					"AQAAAAAAAAABAAAAHgYAAAAAAAAeBgAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					242,
+					1,
+					"paste",
+					null,
+					"AQAAAB8GAAAAAAAASQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwYAAAAAAAAfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					245,
+					1,
+					"right_delete",
+					null,
+					"AQAAAFMGAAAAAAAAUwYAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAUwYAAAAAAABTBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					256,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAJsGAAAAAAAAnAYAAAAAAAAAAAAAnAYAAAAAAACgBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmwYAAAAAAACbBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					257,
+					1,
+					"paste",
+					null,
+					"AQAAAKAGAAAAAAAAqwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoAYAAAAAAACgBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					258,
+					1,
+					"insert",
+					{
+						"characters": " +="
+					},
+					"AwAAAKsGAAAAAAAArAYAAAAAAAAAAAAArAYAAAAAAACtBgAAAAAAAAAAAACtBgAAAAAAAK4GAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwYAAAAAAACrBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					259,
+					1,
+					"insert",
+					{
+						"characters": " ava"
+					},
+					"BAAAAK4GAAAAAAAArwYAAAAAAAAAAAAArwYAAAAAAACwBgAAAAAAAAAAAACwBgAAAAAAALEGAAAAAAAAAAAAALEGAAAAAAAAsgYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArgYAAAAAAACuBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					260,
+					1,
+					"insert_completion",
+					{
+						"completion": "avatar",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "avatar"
+					},
+					"AgAAAK8GAAAAAAAArwYAAAAAAAADAAAAYXZhrwYAAAAAAAC1BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgYAAAAAAACyBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					269,
+					1,
+					"insert",
+					{
+						"characters": "Parspectiv"
+					},
+					"CwAAAO8GAAAAAAAA8AYAAAAAAAAAAAAA8AYAAAAAAADwBgAAAAAAAAUAAABPcnRob/AGAAAAAAAA8QYAAAAAAAAAAAAA8QYAAAAAAADyBgAAAAAAAAAAAADyBgAAAAAAAPMGAAAAAAAAAAAAAPMGAAAAAAAA9AYAAAAAAAAAAAAA9AYAAAAAAAD1BgAAAAAAAAAAAAD1BgAAAAAAAPYGAAAAAAAAAAAAAPYGAAAAAAAA9wYAAAAAAAAAAAAA9wYAAAAAAAD4BgAAAAAAAAAAAAD4BgAAAAAAAPkGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9AYAAAAAAADvBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					270,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAPkGAAAAAAAA+gYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QYAAAAAAAD5BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					275,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAEHAAAAAAAAAQcAAAAAAAAMAAAAKlByb2dyYW0uYWxs",
+					"AQAAAAAAAAABAAAAAQcAAAAAAAANBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					282,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPsEAAAAAAAA+wQAAAAAAAABAAAAfQ",
+					"AQAAAAAAAAABAAAA/AQAAAAAAAD8BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					283,
+					1,
+					"insert",
+					{
+						"characters": ")"
+					},
+					"AQAAAPsEAAAAAAAA/AQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+wQAAAAAAAD7BAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					293,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPAGAAAAAAAA8AYAAAAAAAABAAAAYQ",
+					"AQAAAAAAAAABAAAA8QYAAAAAAADxBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					294,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAPAGAAAAAAAA8QYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8AYAAAAAAADwBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					308,
+					1,
+					"right_delete",
+					null,
+					"AQAAAAoHAAAAAAAACgcAAAAAAAA2AAAAICAgIHBvc2l0aW9uLnNldCgxZiwgMWYpCiAgICB3aW5kb3dTaXplLnNldCgyMGYsIDIwZikK",
+					"AQAAAAAAAAABAAAACgcAAAAAAABABwAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					316,
+					1,
+					"right_delete",
+					null,
+					"AQAAABQHAAAAAAAAFAcAAAAAAAAOAAAAVmlld1Byb2pNYXRyaXg",
+					"AQAAAAAAAAABAAAAIgcAAAAAAAAUBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					322,
+					1,
+					"right_delete",
+					null,
+					"AQAAAMcIAAAAAAAAxwgAAAAAAAAMAAAAKlByb2dyYW0uYWxs",
+					"AQAAAAAAAAABAAAAxwgAAAAAAADTCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					345,
+					1,
+					"insert",
+					{
+						"characters": ".apply"
+					},
+					"BgAAAEkGAAAAAAAASgYAAAAAAAAAAAAASgYAAAAAAABLBgAAAAAAAAAAAABLBgAAAAAAAEwGAAAAAAAAAAAAAEwGAAAAAAAATQYAAAAAAAAAAAAATQYAAAAAAABOBgAAAAAAAAAAAABOBgAAAAAAAE8GAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQYAAAAAAABJBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					346,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAE8GAAAAAAAAUQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwYAAAAAAABPBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					347,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAAFAGAAAAAAAAUQYAAAAAAAAAAAAAUQYAAAAAAABTBgAAAAAAAAAAAABTBgAAAAAAAFQGAAAAAAAAAAAAAFQGAAAAAAAAVgYAAAAAAAAAAAAAUQYAAAAAAABRBgAAAAAAAAIAAAAgIFEGAAAAAAAAVQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUAYAAAAAAABQBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					348,
+					1,
+					"insert",
+					{
+						"characters": "scale"
+					},
+					"BQAAAFUGAAAAAAAAVgYAAAAAAAAAAAAAVgYAAAAAAABXBgAAAAAAAAAAAABXBgAAAAAAAFgGAAAAAAAAAAAAAFgGAAAAAAAAWQYAAAAAAAAAAAAAWQYAAAAAAABaBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQYAAAAAAABVBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					349,
+					1,
+					"insert",
+					{
+						"characters": ".set"
+					},
+					"BAAAAFoGAAAAAAAAWwYAAAAAAAAAAAAAWwYAAAAAAABcBgAAAAAAAAAAAABcBgAAAAAAAF0GAAAAAAAAAAAAAF0GAAAAAAAAXgYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgYAAAAAAABaBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					350,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAF4GAAAAAAAAYAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXgYAAAAAAABeBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					353,
+					1,
+					"insert",
+					{
+						"characters": "0.1,"
+					},
+					"BAAAAF8GAAAAAAAAYAYAAAAAAAAAAAAAYAYAAAAAAABhBgAAAAAAAAAAAABhBgAAAAAAAGIGAAAAAAAAAAAAAGIGAAAAAAAAYwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwYAAAAAAABfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					354,
+					1,
+					"insert",
+					{
+						"characters": " 0.1"
+					},
+					"BAAAAGMGAAAAAAAAZAYAAAAAAAAAAAAAZAYAAAAAAABlBgAAAAAAAAAAAABlBgAAAAAAAGYGAAAAAAAAAAAAAGYGAAAAAAAAZwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwYAAAAAAABjBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					355,
+					1,
+					"insert",
+					{
+						"characters": " 0.1f"
+					},
+					"BQAAAGcGAAAAAAAAaAYAAAAAAAAAAAAAaAYAAAAAAABpBgAAAAAAAAAAAABpBgAAAAAAAGoGAAAAAAAAAAAAAGoGAAAAAAAAawYAAAAAAAAAAAAAawYAAAAAAABsBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwYAAAAAAABnBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					357,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAGcGAAAAAAAAaAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwYAAAAAAABnBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					359,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAAGcGAAAAAAAAaAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwYAAAAAAABnBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					361,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAAGIGAAAAAAAAYwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYgYAAAAAAABiBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					364,
+					1,
+					"insert",
+					{
+						"characters": "\ngl"
+					},
+					"BAAAAM4IAAAAAAAAzwgAAAAAAAAAAAAAzwgAAAAAAADTCAAAAAAAAAAAAADTCAAAAAAAANQIAAAAAAAAAAAAANQIAAAAAAAA1QgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzggAAAAAAADOCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					365,
+					2,
+					"left_delete",
+					null,
+					"AgAAANQIAAAAAAAA1AgAAAAAAAABAAAAbNMIAAAAAAAA0wgAAAAAAAABAAAAZw",
+					"AQAAAAAAAAABAAAA1QgAAAAAAADVCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					366,
+					1,
+					"insert",
+					{
+						"characters": "gl.ena"
+					},
+					"BgAAANMIAAAAAAAA1AgAAAAAAAAAAAAA1AgAAAAAAADVCAAAAAAAAAAAAADVCAAAAAAAANYIAAAAAAAAAAAAANYIAAAAAAAA1wgAAAAAAAAAAAAA1wgAAAAAAADYCAAAAAAAAAAAAADYCAAAAAAAANkIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0wgAAAAAAADTCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					368,
+					1,
+					"insert_completion",
+					{
+						"completion": "enable",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "enable"
+					},
+					"AgAAANYIAAAAAAAA1ggAAAAAAAADAAAAZW5h1ggAAAAAAADcCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QgAAAAAAADZCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					369,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAANwIAAAAAAAA3ggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AgAAAAAAADcCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					372,
+					1,
+					"insert",
+					{
+						"characters": "GL.DEPTH_"
+					},
+					"CQAAAN0IAAAAAAAA3ggAAAAAAAAAAAAA3ggAAAAAAADfCAAAAAAAAAAAAADfCAAAAAAAAOAIAAAAAAAAAAAAAOAIAAAAAAAA4QgAAAAAAAAAAAAA4QgAAAAAAADiCAAAAAAAAAAAAADiCAAAAAAAAOMIAAAAAAAAAAAAAOMIAAAAAAAA5AgAAAAAAAAAAAAA5AgAAAAAAADlCAAAAAAAAAAAAADlCAAAAAAAAOYIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3QgAAAAAAADdCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					373,
+					1,
+					"insert",
+					{
+						"characters": "TEST"
+					},
+					"BAAAAOYIAAAAAAAA5wgAAAAAAAAAAAAA5wgAAAAAAADoCAAAAAAAAAAAAADoCAAAAAAAAOkIAAAAAAAAAAAAAOkIAAAAAAAA6ggAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5ggAAAAAAADmCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					383,
+					1,
+					"insert",
+					{
+						"characters": "\ncamera."
+					},
+					"CQAAAFcKAAAAAAAAWAoAAAAAAAAAAAAAWAoAAAAAAABcCgAAAAAAAAAAAABcCgAAAAAAAF0KAAAAAAAAAAAAAF0KAAAAAAAAXgoAAAAAAAAAAAAAXgoAAAAAAABfCgAAAAAAAAAAAABfCgAAAAAAAGAKAAAAAAAAAAAAAGAKAAAAAAAAYQoAAAAAAAAAAAAAYQoAAAAAAABiCgAAAAAAAAAAAABiCgAAAAAAAGMKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwoAAAAAAABXCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					384,
+					1,
+					"insert",
+					{
+						"characters": "move"
+					},
+					"BAAAAGMKAAAAAAAAZAoAAAAAAAAAAAAAZAoAAAAAAABlCgAAAAAAAAAAAABlCgAAAAAAAGYKAAAAAAAAAAAAAGYKAAAAAAAAZwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwoAAAAAAABjCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					385,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAGcKAAAAAAAAaQoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZwoAAAAAAABnCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					388,
+					1,
+					"insert",
+					{
+						"characters": "dt,"
+					},
+					"AwAAAGgKAAAAAAAAaQoAAAAAAAAAAAAAaQoAAAAAAABqCgAAAAAAAAAAAABqCgAAAAAAAGsKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAoAAAAAAABoCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					389,
+					1,
+					"insert",
+					{
+						"characters": " ket"
+					},
+					"BAAAAGsKAAAAAAAAbAoAAAAAAAAAAAAAbAoAAAAAAABtCgAAAAAAAAAAAABtCgAAAAAAAG4KAAAAAAAAAAAAAG4KAAAAAAAAbwoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAawoAAAAAAABrCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					390,
+					1,
+					"left_delete",
+					null,
+					"AQAAAG4KAAAAAAAAbgoAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAbwoAAAAAAABvCgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					391,
+					1,
+					"insert_completion",
+					{
+						"completion": "keysPressed",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "keysPressed"
+					},
+					"AgAAAGwKAAAAAAAAbAoAAAAAAAACAAAAa2VsCgAAAAAAAHcKAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbgoAAAAAAABuCgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "client/src/main/glsl/textured-vs.glsl",
+			"settings":
+			{
+				"buffer_size": 687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/main/glsl/textured-fs.glsl",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/main/kotlin/PerspectiveCamera.kt",
+			"settings":
+			{
+				"buffer_size": 2806,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"right_delete",
+					null,
+					"AQAAAOMAAAAAAAAA4wAAAAAAAAAZAAAAdmFyYXJnIHByb2dyYW1zIDogUHJvZ3JhbQ",
+					"AQAAAAAAAAABAAAA4wAAAAAAAAD8AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"right_delete",
+					null,
+					"AQAAADgDAAAAAAAAOAMAAAAAAAAuAAAAICAgIGFkZENvbXBvbmVudHNBbmRHYXRoZXJVbmlmb3JtcygqcHJvZ3JhbXMpCg",
+					"AQAAAAAAAAABAAAAOAMAAAAAAABmAwAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		},
+		{
+			"file": "client/src/main/kotlin/OrthoCamera.kt",
+			"settings":
+			{
+				"buffer_size": 794,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"right_delete",
+					null,
+					"AQAAAIcAAAAAAAAAhwAAAAAAAAAZAAAAdmFyYXJnIHByb2dyYW1zIDogUHJvZ3JhbQ",
+					"AQAAAAAAAAABAAAAhwAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"right_delete",
+					null,
+					"AQAAAHIBAAAAAAAAcgEAAAAAAAAuAAAAICAgIGFkZENvbXBvbmVudHNBbmRHYXRoZXJVbmlmb3JtcygqcHJvZ3JhbXMpCg",
+					"AQAAAAAAAAABAAAAcgEAAAAAAACgAQAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		},
+		{
+			"file": "client/src/main/kotlin/App.kt",
+			"settings":
+			{
+				"buffer_size": 3029,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAANoFAAAAAAAAdQgAAAAAAAAAAAAAdQgAAAAAAAB1CAAAAAAAAHECAABjYW52YXMub25tb3VzZWRvd24gPSB7IAogICAgICBldmVudCA6IE1vdXNlRXZlbnQgLT4KICAgICAgLy8gTEFCVE9ETzogcGFzcyB0byBjYW1lcmEKICAgICAgZXZlbnQKICAgIH0KCiAgICBjYW52YXMub25tb3VzZW1vdmUgPSB7IAogICAgICBldmVudCA6IEV2ZW50IC0+CiAgICAgIC8vIExBQlRPRE86IHBhc3MgdG8gY2FtZXJhCiAgICAgIGV2ZW50LnN0b3BQcm9wYWdhdGlvbigpCiAgICB9CgogICAgY2FudmFzLm9ubW91c2V1cCA9IHsgCiAgICAgIGV2ZW50IDogRXZlbnQgLT4KICAgICAgLy8gTEFCVE9ETzogcGFzcyB0byBjYW1lcmEKICAgICAgZXZlbnQgLy8gVGhpcyBsaW5lIGlzIGEgcGxhY2Vob2xkZXIgZm9yIGV2ZW50IGhhbmRsaW5nIGNvZGUuIEl0IGhhcyBubyBlZmZlY3QsIGJ1dCBhdm9pZHMgdGhlICJ1bnVzZWQgcGFyYW1ldGVyIiB3YXJuaW5nLgogICAgfQoKICAgIGNhbnZhcy5vbm1vdXNlb3V0ID0geyAKICAgICAgZXZlbnQgOiBFdmVudCAtPgogICAgICBldmVudCAvLyBUaGlzIGxpbmUgaXMgYSBwbGFjZWhvbGRlciBmb3IgZXZlbnQgaGFuZGxpbmcgY29kZS4gSXQgaGFzIG5vIGVmZmVjdCwgYnV0IGF2b2lkcyB0aGUgInVudXNlZCBwYXJhbWV0ZXIiIHdhcm5pbmcuCiAgICB9",
+					"AQAAAAAAAAABAAAA2gUAAAAAAABLCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHQIAAAAAAAAdAgAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAdQgAAAAAAAB1CAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"maker",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"make",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mak",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"rain",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rainb",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"make ",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"rainbo",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"rai",
+				"RainbowBrackets: Make Rainbow"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"kotlin",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Education/Graphics/kog.3.09-mesh-final/client/src",
+		"/C/Education/Graphics/kog.3.09-mesh-final/client/src/main",
+		"/C/Education/Graphics/kog.3.09-mesh-final/client/src/main/glsl",
+		"/C/Education/Graphics/kog.3.09-mesh-final/client/src/main/kotlin"
+	],
+	"file_history":
+	[
+		"/C/Coding/gamma/client/kog.sublime-project",
+		"/C/Users/szecs/.ssh/config",
+		"/C/eDiploma/Delft/notes.txt",
+		"/C/eDiploma/WindowsNoEditor/launch_from_browser.bat",
+		"/C/eDiploma/WindowsNoEditor/launch_user2.bat",
+		"/C/eDiploma/WindowsNoEditor/launch_user1.bat",
+		"/C/Coding/gamma/.git/MERGE_MSG",
+		"/C/Coding/gamma/aws/runInstance.txt",
+		"/C/Coding/gamma/aws/runEC2_0.2.json",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/Shader.kt",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/Program.kt",
+		"/C/Education/Graphics/kogstart-2023-09-11/kog.sublime-project",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/glsl/idle-vs.glsl",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/QuadGeometry.kt",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/TriangleGeometry.kt",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/glsl/solid-fs.glsl",
+		"/C/eDiploma/enableLaunch.reg",
+		"/C/eDiploma/PageNew/Angular/src/app/app.component.ts",
+		"/C/eDiploma/PageNew/Angular/src/app/app.component.html",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/Scene.kt",
+		"/C/Education/Graphics/kogstart-2023-09-11/client/src/main/kotlin/App.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/toto.txt",
+		"/C/Development/gamma/client/client/src/main/kotlin/junkyard.txt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/FootProcessor.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/hedge/smooth-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/mask-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/SceneResources.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/hedge/jumpFlood-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/hedge/mask-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Io.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Scene.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/gui/Toolbar.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/CurveOnMarkers.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/segmented-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/Renderer.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/HedgeRenderer.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/Texture2DArray.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Pickings.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/EdgeHasher.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/state/Marching.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/app/App.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gom/GameObject.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Layer.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/hedge/trace-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/state/Slicing.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/LayerView.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/View.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/OctaRenderer.kt",
+		"/C/Users/szecs/OneDrive/Documents/Allende/togettodo.txt.txt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/Framebuffer.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/RenderTargetTexture.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Manual.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/app/Workphase.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/density-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/trace-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/hedge/trace-fs-glsl.trash.vs",
+		"/C/Development/gamma/client/client/src/main/kotlin/kimgui/imgui.kt",
+		"/C/Development/gamma/client/client/src/main/content/imgui/imgui.js",
+		"/C/Development/gamma/client/client/src/main/content/imgui_impl.umd.js",
+		"/C/Development/gamma/client/client/src/main/content/imgui.umd.js",
+		"/C/Development/gamma/client/webglmath/src/main/kotlin/Sampler2DArray.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/nvmask-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/odtx-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/odtz-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/odty-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/footFilter-fs.glsl",
+		"/C/Users/szecs/Documents/Allende/rush.txt",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/linearfootFilter-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/Texture2D.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/FramebufferArray.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/gui/Segment.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/WebGL2RenderingContext.kt",
+		"/C/Development/gamma/client/webglmath/src/main/kotlin/ProgramReflection.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/SurgeonMouse.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/engine/gl/Texture3D.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/curve-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/HedgeHasher.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/EdgeHasher.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/trace-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/distFilterCR-fs.glsl",
+		"/C/Development/eDiploma/grade/thesis.txt",
+		"/C/Development/eDiploma/Moodle/powertools.ts",
+		"/C/Development/gamma/client/client/src/main/kotlin/comms/Messenger.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/path-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/transform-vs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/TiledRenderer.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/operations/SegmentTrachea.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/app/Milestone.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/curve-vs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/Path.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/solid-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/glsl/tool-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/CurveEditor.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/Curve.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/Marker.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/app/Workroutine.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/gui/SceneGui.kt",
+		"/C/Development/gamma/.git/MERGE_MSG",
+		"/C/Development/eDiploma/recruit/howcalled.txt",
+		"/C/Development/eDiploma/hacka/todo202308.txt",
+		"/C/Development/gamma/client/client/src/main/glsl/octa/trace-fs.glsl.baki",
+		"/C/Development/gamma/client/client/src/main/kotlin/app/Worknode.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/comms/OperationJsonSerialization.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/gui/SeriesPicker.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/EditTool.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/RenderMode.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/camera/OrthoCamera.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/camera/PerspectiveCamera.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/camera/AndrisCameraControlStrategy.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/camera/CameraControlStrategy.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/camera/ImiCameraControlStrategy.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/kimgui/dsl.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/Polyline.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/curves/Grip.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/Mouse.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/rendering/ViewInitStrategy.kt",
+		"/C/Development/gamma/client/client/src/main/kotlin/operations/SegmentVessel.kt",
+		"/C/Development/gamma/client/client/src/main/glsl/dis-fs.glsl",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/surgeon/NavigationMouse.kt",
+		"/C/Users/szecs/OneDrive/Documents/OTKA/risue.txt",
+		"/C/Development/gamma/client/client/src/main/kotlin/scene/state/Volume.kt",
+		"/C/Development/eDiploma/toto.txt",
+		"/C/Development/eDiploma/Moodle/server/apache/conf/ssl.key/server.key",
+		"/C/Development/eDiploma/Moodle/server/apache/conf/ssl.key/localhost.key",
+		"/C/Development/eDiploma/Moodle/server/apache/conf/extra/httpd-ssl.conf",
+		"/C/Development/eDiploma/Moodle/server/apache/conf/httpd.conf",
+		"/C/Development/eDiploma/Moodle/cert/CA/localhost/localhost.ext",
+		"/C/Development/eDiploma/Moodle/server/php/php.ini"
+	],
+	"find":
+	{
+		"height": 59.2
+	},
+	"find_in_files":
+	{
+		"height": 209.6,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/src/main/kotlin/Scene.kt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3181,
+						"regions":
+						{
+							"rb_l0_<default>":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										516,
+										517
+									],
+									[
+										551,
+										552
+									],
+									[
+										571,
+										572
+									],
+									[
+										579,
+										580
+									],
+									[
+										581,
+										582
+									],
+									[
+										3179,
+										3180
+									]
+								],
+								"scope": "<default>.l0.rb"
+							},
+							"rb_l1_<default>":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										609,
+										610
+									],
+									[
+										650,
+										651
+									],
+									[
+										677,
+										678
+									],
+									[
+										720,
+										721
+									],
+									[
+										753,
+										754
+									],
+									[
+										780,
+										781
+									],
+									[
+										832,
+										833
+									],
+									[
+										835,
+										836
+									],
+									[
+										937,
+										938
+									],
+									[
+										970,
+										971
+									],
+									[
+										1008,
+										1009
+									],
+									[
+										1044,
+										1045
+									],
+									[
+										1081,
+										1082
+									],
+									[
+										1275,
+										1276
+									],
+									[
+										1306,
+										1307
+									],
+									[
+										1307,
+										1308
+									],
+									[
+										1361,
+										1362
+									],
+									[
+										1400,
+										1401
+									],
+									[
+										1430,
+										1431
+									],
+									[
+										1471,
+										1472
+									],
+									[
+										1476,
+										1477
+									],
+									[
+										1504,
+										1505
+									],
+									[
+										1518,
+										1519
+									],
+									[
+										1519,
+										1520
+									],
+									[
+										1563,
+										1564
+									],
+									[
+										1564,
+										1565
+									],
+									[
+										1592,
+										1593
+									],
+									[
+										1608,
+										1609
+									],
+									[
+										1615,
+										1616
+									],
+									[
+										1651,
+										1652
+									],
+									[
+										1660,
+										1661
+									],
+									[
+										1763,
+										1764
+									],
+									[
+										1835,
+										1836
+									],
+									[
+										1836,
+										1837
+									],
+									[
+										1843,
+										1844
+									],
+									[
+										1860,
+										1861
+									],
+									[
+										1875,
+										1876
+									],
+									[
+										1902,
+										1903
+									],
+									[
+										1904,
+										1905
+									],
+									[
+										2126,
+										2127
+									],
+									[
+										2158,
+										2159
+									],
+									[
+										2159,
+										2160
+									],
+									[
+										2168,
+										2169
+									],
+									[
+										2169,
+										2170
+									],
+									[
+										2220,
+										2221
+									],
+									[
+										2323,
+										2324
+									],
+									[
+										2337,
+										2338
+									],
+									[
+										2356,
+										2357
+									],
+									[
+										2370,
+										2371
+									],
+									[
+										2396,
+										2397
+									],
+									[
+										2398,
+										2399
+									],
+									[
+										3177,
+										3178
+									]
+								],
+								"scope": "<default>.l1.rb"
+							},
+							"rb_l2_<default>":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1095,
+										1096
+									],
+									[
+										1111,
+										1112
+									],
+									[
+										1119,
+										1120
+									],
+									[
+										1174,
+										1175
+									],
+									[
+										1189,
+										1190
+									],
+									[
+										1205,
+										1206
+									],
+									[
+										1213,
+										1214
+									],
+									[
+										1271,
+										1272
+									],
+									[
+										1482,
+										1483
+									],
+									[
+										1502,
+										1503
+									],
+									[
+										1630,
+										1631
+									],
+									[
+										1647,
+										1648
+									],
+									[
+										1855,
+										1856
+									],
+									[
+										1856,
+										1857
+									],
+									[
+										1921,
+										1922
+									],
+									[
+										1955,
+										1956
+									],
+									[
+										2085,
+										2086
+									],
+									[
+										2122,
+										2123
+									],
+									[
+										2268,
+										2269
+									],
+									[
+										2282,
+										2283
+									],
+									[
+										2318,
+										2319
+									],
+									[
+										2319,
+										2320
+									],
+									[
+										2430,
+										2431
+									],
+									[
+										2431,
+										2432
+									],
+									[
+										2440,
+										2441
+									],
+									[
+										2441,
+										2442
+									],
+									[
+										2457,
+										2458
+									],
+									[
+										2491,
+										2492
+									],
+									[
+										2500,
+										2501
+									],
+									[
+										2501,
+										2502
+									],
+									[
+										2525,
+										2526
+									],
+									[
+										2560,
+										2561
+									],
+									[
+										2569,
+										2570
+									],
+									[
+										2570,
+										2571
+									],
+									[
+										2663,
+										2664
+									],
+									[
+										2679,
+										2680
+									],
+									[
+										2703,
+										2704
+									],
+									[
+										2726,
+										2727
+									],
+									[
+										2783,
+										2784
+									],
+									[
+										2788,
+										2789
+									],
+									[
+										2853,
+										2854
+									],
+									[
+										2896,
+										2897
+									],
+									[
+										2938,
+										2939
+									],
+									[
+										2947,
+										2948
+									],
+									[
+										2965,
+										2966
+									],
+									[
+										3015,
+										3016
+									],
+									[
+										3041,
+										3042
+									],
+									[
+										3084,
+										3085
+									],
+									[
+										3110,
+										3111
+									],
+									[
+										3124,
+										3125
+									],
+									[
+										3149,
+										3150
+									],
+									[
+										3173,
+										3174
+									]
+								],
+								"scope": "<default>.l2.rb"
+							},
+							"rb_l3_<default>":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										1131,
+										1132
+									],
+									[
+										1146,
+										1147
+									],
+									[
+										1152,
+										1153
+									],
+									[
+										1168,
+										1169
+									],
+									[
+										1225,
+										1226
+									],
+									[
+										1240,
+										1241
+									],
+									[
+										1246,
+										1247
+									],
+									[
+										1265,
+										1266
+									],
+									[
+										2106,
+										2107
+									],
+									[
+										2107,
+										2108
+									],
+									[
+										3050,
+										3051
+									],
+									[
+										3082,
+										3083
+									],
+									[
+										3121,
+										3122
+									],
+									[
+										3122,
+										3123
+									],
+									[
+										3158,
+										3159
+									],
+									[
+										3171,
+										3172
+									]
+								],
+								"scope": "<default>.l3.rb"
+							}
+						},
+						"selection":
+						[
+							[
+								2679,
+								2679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kotlin/Kotlin.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2226.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/src/main/glsl/textured-vs.glsl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/OpenGL Shading Language (GLSL)/GLSL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 666.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/src/main/glsl/textured-fs.glsl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/OpenGL Shading Language (GLSL)/GLSL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/src/main/kotlin/PerspectiveCamera.kt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2806,
+								2806
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kotlin/Kotlin.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/src/main/kotlin/OrthoCamera.kt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kotlin/Kotlin.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/src/main/kotlin/App.kt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2165,
+								2165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Kotlin/Kotlin.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1852.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 46.4
+	},
+	"input":
+	{
+		"height": 74.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 240.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Gradle",
+	"project": "kog.sublime-project",
+	"replace":
+	{
+		"height": 89.6
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tag",
+				"main\\kotlin\\engine\\gl\\TexturedQuadGeometry.kt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 568.8,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Development\\Education\\Graphics\\ksh\\kog.sublime-project"
+			]
+		],
+		"width": 759.2
+	},
+	"select_symbol":
+	{
+		"height": 292.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
