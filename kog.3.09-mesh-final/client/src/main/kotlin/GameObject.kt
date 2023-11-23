@@ -11,7 +11,7 @@ open class GameObject(
   var roll = 0.0f
   var yaw = 0.0f
   val scale = Vec3(1.0f, 1.0f, 1.0f)
-  val velocity = Vec3 ()
+  //val velocity = Vec3 ()
 
   val modelMatrix by Mat4()
   val modelMatrixInverse by Mat4()
@@ -27,9 +27,14 @@ open class GameObject(
   fun update() {
     modelMatrix.set().
       scale(scale).
-      rotate(roll).
-      rotate(yaw, 1.0f, 0.0f, 0.0f).
-      translate(position)
+       rotate(roll).
+       rotate(yaw, 1.0f, 0.0f, 0.0f)
+    
+    parent?.let{ parent -> 
+      modelMatrix *= parent.orientationMatrix
+    }
+
+    modelMatrix.translate(position)
 
     parent?.let{ parent -> 
       modelMatrix *= parent.modelMatrix
@@ -39,19 +44,13 @@ open class GameObject(
 
   }
 
-  open class Motion(val gameObject : GameObject) {
-    open operator fun invoke(
-        dt : Float = 0.016666f,
-        t : Float = 0.0f,
-        keysPressed : Set<String> = emptySet<String>(),
-        gameObjects : List<GameObject> = emptyList<GameObject>()
-        ) : Boolean {
-      //rotate gets angle (angular velocity over radius) and the crossproduct of the y axis and the velocity
-        gameObject.roll += dt
-      gameObjects.orientationMatrix.rotate() 
-      return true
-    }
+   open fun move(
+      dt : Float = 0.016666f,
+      t : Float = 0.0f,
+      keysPressed : Set<String> = emptySet<String>(),
+      gameObjects : List<GameObject> = emptyList<GameObject>()
+      ) : Boolean {
+    return true;
   }
-  var move = Motion(this)
 
 }

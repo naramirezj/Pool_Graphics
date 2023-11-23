@@ -25,9 +25,9 @@ class Scene (
   val fsBackground = Shader(gl, GL.FRAGMENT_SHADER, "background-fs.glsl")
   val backgroundProgram = Program(gl, vsQuad, fsBackground)
   val skyCubeTexture = TextureCube(gl,
-      "media/posx512.jpg", "media/negx512.jpg",
-      "media/posy512.jpg", "media/negy512.jpg",
-      "media/posz512.jpg", "media/negz512.jpg"
+      "media/background.jpeg", "media/background.jpeg",
+      "media/ceiling.jpeg", "media/pool.png",
+      "media/background.jpeg", "media/background.jpeg"
     )  
   val backgroundMaterial = Material(backgroundProgram).apply{
     this["envTexture"]?.set( skyCubeTexture )
@@ -60,10 +60,11 @@ class Scene (
 
   val gameObjects = ArrayList<GameObject>()
 
-  val avatar = GameObject(*sphereMeshes).apply{
+  val avatar = PhysicsGameObject(*sphereMeshes).apply{
     position.set(0f, 0f, 0f)
     scale.set(1f, 1f, 1f)
   }
+
   init {
     // LABTODO: create and add game object using meshes loaded from JSON
     gameObjects += avatar
