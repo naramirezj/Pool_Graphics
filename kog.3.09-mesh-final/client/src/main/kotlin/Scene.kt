@@ -15,6 +15,8 @@ import kotlin.math.cos
 class Scene (
   val gl : WebGL2RenderingContext)  : UniformProvider("scene") {
 
+  var firstUpdate = true
+
   val vsTextured = Shader(gl, GL.VERTEX_SHADER, "textured-vs.glsl")
   val fsTextured = Shader(gl, GL.FRAGMENT_SHADER, "textured-fs.glsl")
   val texturedProgram = Program(gl, vsTextured, fsTextured)
@@ -25,12 +27,12 @@ class Scene (
   val fsBackground = Shader(gl, GL.FRAGMENT_SHADER, "background-fs.glsl")
   val backgroundProgram = Program(gl, vsQuad, fsBackground)
   val skyCubeTexture = TextureCube(gl,
-      "media/background.jpeg", "media/background.jpeg",
-      "media/ceiling.jpeg", "media/pool.png",
-      "media/background.jpeg", "media/background.jpeg"
+      "media/posx512.jpg", "media/negx512.jpg",
+      "media/posy512.jpg", "media/negy512.jpg",
+      "media/posz512.jpg", "media/negz512.jpg"
     )  
   val backgroundMaterial = Material(backgroundProgram).apply{
-    this["envTexture"]?.set( skyCubeTexture )
+    this["envTexture"]?.set(skyCubeTexture)
   }
   val backgroundMesh = Mesh(backgroundMaterial, texturedQuadGeometry)
 
@@ -39,15 +41,26 @@ class Scene (
   val sphereMaterials = arrayOf(
     Material(texturedProgram).apply {
       this["colorTexture"]?.set(sphereTexture)
-      this["envTexture"]?.set( skyCubeTexture )
+      this["envTexture"]?.set(skyCubeTexture)
     }
   )
+  val sphereMaterials2 = arrayOf(
+    Material(texturedProgram).apply {
+      this["colorTexture"]?.set(sphereTexture)
+      this["envTexture"]?.set(skyCubeTexture)
+    }
+  )
+
+  
 
   val jsonLoader = JsonLoader()
   val sphereGeometries = jsonLoader.loadGeometries(gl,
     "media/sphere/sphere.json")
+
   val sphereMeshes = 
     (sphereMaterials zip sphereGeometries).map{ Mesh(it.first, it.second) }.toTypedArray()
+
+  val sphereMeshes2 = (sphereMaterials zip sphereGeometries).map{ Mesh(it.first, it.second) }.toTypedArray()
 
   val lights = Array<Light>(2) { Light(it) }
   init{
@@ -65,10 +78,57 @@ class Scene (
     scale.set(1f, 1f, 1f)
   }
 
+  val sphere = object: PhysicsGameObject(*sphereMeshes2){
+    override fun control (
+      dt : Float,
+      t : Float,
+      keysPressed : Set<String>,
+      gameObjects : List<GameObject>) : Boolean
+    {
+    //roll += 0.1f
+    
+    force.set (-2.0f * sin(t), 0.0f, 5.0f * cos(2.0f * t));
+    return true;
+    }
+    override fun move(
+      dt : Float,
+      t : Float,
+      keysPressed : Set<String>,
+      gameObjects : List<GameObject>
+      ) : Boolean {
+
+    control (dt, t, keysPressed, gameObjects)
+
+    acceleration.set(force * invMass)
+    velocity += acceleration * dt
+    position += velocity * dt
+
+   // Calculate angular velocity based on the velocity magnitude
+      val speed = velocity.length() // Magnitude of velocity vector
+      val rotationFactor = -0.3f // Adjust this factor for desired rotation speed
+      val angularSpeed = speed * rotationFactor
+
+        // Update angular velocity
+      angularVelocity = angularSpeed
+
+        // Adjust the rotation based on the velocity direction
+        if (speed > 0) {
+            val axis = Vec3(0.0f, 1.0f, 0.0f) // Define the rotation axis
+            orientationMatrix.rotate(angularSpeed * dt, velocity.clone().normalize().cross(axis))
+        }
+    //orientationMatrix.rotate(-0.04f, velocity.clone().normalize().cross(Vec3(0.0f, 1.0f, 0.0f)))
+    return true;
+  }}.apply{
+    position.set(5f, 0f, 2f)
+    scale.set(1f, 1f, 1f)
+    restitutionCoeff = 0.9f
+  }
+
   init {
     // LABTODO: create and add game object using meshes loaded from JSON
-    gameObjects += avatar
     gameObjects += GameObject(backgroundMesh)
+    gameObjects += avatar
+    gameObjects += sphere
   }
 
   // LABTODO: replace with 3D camera
@@ -100,6 +160,13 @@ class Scene (
     //LABTODO: move camera
     camera.move(dt, keysPressed)
     lights[0].position.set(sin(t), cos(t), cos(2f*t), 0f).normalize()
+
+
+    if (avatar is PhysicsGameObject) {
+    val dampingFactor = 0.95f // Adjust this factor for the desired damping effect
+    avatar.force *= dampingFactor // Gradually reduce the force
+    } 
+
     
     gl.clearColor(0.3f, 0.0f, 0.3f, 1.0f)//## red, green, blue, alpha in [0, 1]
     gl.clearDepth(1.0f)//## will be useful in 3D ˙HUN˙ 3D-ben lesz hasznos

@@ -25,15 +25,8 @@ open class GameObject(
   }
 
   fun update() {
-    modelMatrix.set().
-      scale(scale).
-       rotate(roll).
-       rotate(yaw, 1.0f, 0.0f, 0.0f)
-    
-    parent?.let{ parent -> 
-      modelMatrix *= parent.orientationMatrix
-    }
-
+  
+    modelMatrix.set(orientationMatrix)
     modelMatrix.translate(position)
 
     parent?.let{ parent -> 

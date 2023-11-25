@@ -20,6 +20,7 @@ open class PhysicsGameObject(
   var invMass = 1.0f
   val radialInvMass = 1.0f
   var restitutionCoeff = 0.8f
+  var isFirstUpdate = true
 
   open fun control (
       dt : Float = 0.016666f,
@@ -27,7 +28,8 @@ open class PhysicsGameObject(
       keysPressed : Set<String> = emptySet<String>(),
       gameObjects : List<GameObject> = emptyList<GameObject>()) : Boolean
   {
-    roll += 0.1f
+    
+    force.set (4.0f * sin(t), 0.0f, 10.0f * cos(2.0f * t));
     return true;
   }
 
@@ -44,17 +46,21 @@ open class PhysicsGameObject(
     velocity += acceleration * dt
     position += velocity * dt
 
-    angularAcceleration = torque * radialInvMass
-    angularVelocity += angularAcceleration * dt
+   // Calculate angular velocity based on the velocity magnitude
+      val speed = velocity.length() // Magnitude of velocity vector
+      val rotationFactor = 0.7f // Adjust this factor for desired rotation speed
+      val angularSpeed = speed * rotationFactor
 
-    velocity *= exp (-dt)
-    angularVelocity *= exp (-dt)
-    //creating the cross product of the y axis and the 
+        // Update angular velocity
+      angularVelocity = angularSpeed
+
+        // Adjust the rotation based on the velocity direction
+        if (speed > 0) {
+            val axis = Vec3(0.0f, 1.0f, 0.0f) // Define the rotation axis
+            orientationMatrix.rotate(-angularSpeed * dt, velocity.clone().normalize().cross(axis))
+        }
     //collisionMove(dt, t, keysPressed, gameObjects)
-    
-    //val y_axis = Vec3(0.0f, position.y, 0.0f)
 
-    orientationMatrix.rotate(0.02f, velocity.cross(position))
     return true;
   }
 
