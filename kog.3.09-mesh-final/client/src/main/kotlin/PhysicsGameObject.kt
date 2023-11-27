@@ -29,7 +29,7 @@ open class PhysicsGameObject(
       gameObjects : List<GameObject> = emptyList<GameObject>()) : Boolean
   {
     
-    force.set (4.0f * sin(t), 0.0f, 10.0f * cos(2.0f * t));
+    //force.set (4.0f * sin(t), 0.0f, 10.0f * cos(2.0f * t));
     return true;
   }
 
@@ -88,6 +88,8 @@ open class PhysicsGameObject(
                 val impulse = collisionNormal * (1.0f + restitutionCoeff) * (collisionNormal dot relativeVelocity) / (invMass + obj.invMass)
                 velocity += impulse * invMass
                 obj.velocity -= impulse * obj.invMass
+                obj.force.x += 0.3f
+                force.x -= 0.1f
             }
         }
     }

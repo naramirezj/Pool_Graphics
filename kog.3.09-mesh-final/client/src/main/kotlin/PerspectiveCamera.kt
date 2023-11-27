@@ -7,7 +7,7 @@ import org.w3c.dom.events.*
 
 class PerspectiveCamera() : UniformProvider("camera") {
 
-  val position by Vec3(10.0f, 1.0f, 10.0f) 
+  val position by Vec3(10.0f, 6.0f, 10.0f) 
   var roll = 0.0f
   var pitch = 0.0f
   var yaw = 0.0f
