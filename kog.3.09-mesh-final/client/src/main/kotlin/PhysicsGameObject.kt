@@ -59,7 +59,7 @@ open class PhysicsGameObject(
             val axis = Vec3(0.0f, 1.0f, 0.0f) // Define the rotation axis
             orientationMatrix.rotate(-angularSpeed * dt, velocity.clone().normalize().cross(axis))
         }
-    //collisionMove(dt, t, keysPressed, gameObjects)
+    collisionMove(dt, t, keysPressed, gameObjects)
 
     return true;
   }
@@ -70,28 +70,28 @@ open class PhysicsGameObject(
         keysPressed : Set<String>,
         gameObjects : List<GameObject>) : Boolean
     {
-
-      gameObjects.forEach {
-        if (it is PhysicsGameObject) {
-            val diff = position - it.position
+    gameObjects.forEach { obj ->
+        if (obj is PhysicsGameObject && obj != this) {
+            val diff = position - obj.position
             val dist = diff.length()
-            if (dist < radius + it.radius) {
-              val collisionNormal = diff.normalize()
-              position += collisionNormal * invMass / (invMass + it.invMass) * dist * 0.01f
-              it.position += collisionNormal * it.invMass / (invMass + it.invMass) * dist * -0.01f
-              
-              val collisionTangent = Vec3(-collisionNormal.y, collisionNormal.x, 0.0f)
-              val relativeVelocity = velocity - it.velocity
-              
-              val impulseLength = collisionNormal.dot(relativeVelocity) / (invMass + it.invMass) * (1.0f + restitutionCoeff)
-              val restitution = collisionNormal * impulseLength
-              velocity -= restitution * invMass
-              it.velocity += restitution * it.invMass       
-          }
-        }
-      }
+            if (dist < radius + obj.radius) {
+                val collisionNormal = diff.normalize()
+                // Resolve overlap (push objects apart)
+                val pushDistance = (radius + obj.radius - dist) * 0.7f
+                position += collisionNormal * pushDistance
+                obj.position -= collisionNormal * pushDistance
 
-      return true;
+                // Calculate relative velocity
+                val relativeVelocity = obj.velocity - velocity
+
+                // Calculate impulse and update velocities
+                val impulse = collisionNormal * (1.0f + restitutionCoeff) * (collisionNormal dot relativeVelocity) / (invMass + obj.invMass)
+                velocity += impulse * invMass
+                obj.velocity -= impulse * obj.invMass
+            }
+        }
+    }
+    return true
   }
 
 

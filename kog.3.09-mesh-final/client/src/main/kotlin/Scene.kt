@@ -87,7 +87,7 @@ class Scene (
     {
     //roll += 0.1f
     
-    force.set (-2.0f * sin(t), 0.0f, 5.0f * cos(2.0f * t));
+    force.set (-2.0f, 0.0f, 5.0f * cos(2.0f * t));
     return true;
     }
     override fun move(
@@ -105,7 +105,7 @@ class Scene (
 
    // Calculate angular velocity based on the velocity magnitude
       val speed = velocity.length() // Magnitude of velocity vector
-      val rotationFactor = -0.3f // Adjust this factor for desired rotation speed
+      val rotationFactor = -0.5f // Adjust this factor for desired rotation speed
       val angularSpeed = speed * rotationFactor
 
         // Update angular velocity
@@ -116,7 +116,9 @@ class Scene (
             val axis = Vec3(0.0f, 1.0f, 0.0f) // Define the rotation axis
             orientationMatrix.rotate(angularSpeed * dt, velocity.clone().normalize().cross(axis))
         }
+
     //orientationMatrix.rotate(-0.04f, velocity.clone().normalize().cross(Vec3(0.0f, 1.0f, 0.0f)))
+    collisionMove(dt, t, keysPressed, gameObjects)
     return true;
   }}.apply{
     position.set(5f, 0f, 2f)
@@ -124,11 +126,61 @@ class Scene (
     restitutionCoeff = 0.9f
   }
 
+  val sphere2 = object: PhysicsGameObject(*sphereMeshes2){
+    override fun control (
+      dt : Float,
+      t : Float,
+      keysPressed : Set<String>,
+      gameObjects : List<GameObject>) : Boolean
+    {
+    //roll += 0.1f
+    
+    force.set (-2.0f, 0.0f, 5.0f * cos(2.0f * t));
+    return true;
+    }
+    override fun move(
+      dt : Float,
+      t : Float,
+      keysPressed : Set<String>,
+      gameObjects : List<GameObject>
+      ) : Boolean {
+
+    control (dt, t, keysPressed, gameObjects)
+
+    acceleration.set(force * invMass)
+    velocity += acceleration * dt
+    position += velocity * dt
+
+   // Calculate angular velocity based on the velocity magnitude
+      val speed = velocity.length() // Magnitude of velocity vector
+      val rotationFactor = -0.7f // Adjust this factor for desired rotation speed
+      val angularSpeed = speed * rotationFactor
+
+        // Update angular velocity
+      angularVelocity = angularSpeed
+
+        // Adjust the rotation based on the velocity direction
+        if (speed > 0) {
+            val axis = Vec3(0.0f, 1.0f, 0.0f) // Define the rotation axis
+            orientationMatrix.rotate(angularSpeed * dt, velocity.clone().normalize().cross(axis))
+        }
+
+    //orientationMatrix.rotate(-0.04f, velocity.clone().normalize().cross(Vec3(0.0f, 1.0f, 0.0f)))
+    collisionMove(dt, t, keysPressed, gameObjects)
+    return true;
+  }}.apply{
+    position.set(8f, 0f, 4f)
+    scale.set(1f, 1f, 1f)
+    restitutionCoeff = 0.9f
+  }
+
+
   init {
     // LABTODO: create and add game object using meshes loaded from JSON
     gameObjects += GameObject(backgroundMesh)
     gameObjects += avatar
     gameObjects += sphere
+    gameObjects += sphere2
   }
 
   // LABTODO: replace with 3D camera
@@ -161,6 +213,12 @@ class Scene (
     camera.move(dt, keysPressed)
     lights[0].position.set(sin(t), cos(t), cos(2f*t), 0f).normalize()
 
+    /*if (avatar is PhysicsGameObject)
+    {
+      avatar.force.set (2.0f * sin(t), 0.0f, 5.0f * cos(1.0f * t));
+      firstUpdate = false
+      //avatar.force.set (1.0f,1.0f,1.0f)
+    }*/
 
     if (avatar is PhysicsGameObject) {
     val dampingFactor = 0.95f // Adjust this factor for the desired damping effect
